@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css?family=Signika+Negative:300,400&display=swap");
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  position: relative;
+  letter-spacing: 0.04em;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: #22222a;
+}
+
+.titre {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  padding: 0;
+  text-align: center;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  padding: 0;
+  text-align: center;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  /*align-items: center;*/
+}
+
+.bg1 {
+  background-color: #ccc;
+}
+
+.bg2 {
+  background-color: rgb(99, 99, 99);
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 1.2;
+  margin: 0;
+  top: 5%;
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 1.1;
+  text-decoration: underline;
+  margin: 0;
+  top: 5%;
+  text-align: center;
+}
+
+.spacer {
+  height: 50vh;
+  background-color: #000;
+}
+
+.intro {
+  background-color: rgba(0, 0, 0, 0);
+  color: #ffffff;
+  text-align: center;
+  padding: 5px;
+}
+
+.maps {
+  position: absolute;
+  margin: auto;
+  top: 28%;
+}
+
+.adresse {
+  position: absolute;
+  top: 12%;
+  color: #000000;
+  background-color: #ccc;
+  font-size: 14px;
+  padding: 8px 12px;
+  /*width: auto;
+  height: auto;*/
+  text-align: center;
+}
+
+button {
+  background-color: transparent;
+  border-color: transparent;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+
+.linkedin {
+  position: absolute;
+  margin: auto;
+  bottom: 2%;
+}
